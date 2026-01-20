@@ -65,7 +65,29 @@ nav ul li{
     text-align: center;
     color: white;
     padding-top: 36px;
+    position: relative;
     
+}
+.hero-mic{
+    position: absolute;
+    top: 20%;
+    right: 38%;
+    /* display: none; */
+}
+.new{
+    background-color: #00FF88;
+    position: absolute;
+    top: 10%;
+    right: 20%;
+    height: 38px;
+    width: 75px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+
+.hamburgr{
+    display: none;
 }
 
 
@@ -120,5 +142,33 @@ nav ul li{
     left: 100px;
 }
 
+@media screen and (max-width: 576px) {
+    .hero-sec{
+        background-size: 100%;
+        background-repeat: no-repeat;
 
+    }
+
+    .nav-container{
+        width: 100%px;
+
+    }
+    .nav-container img{
+        width: 70%;
+        
+    }
+    .ul-holder, nav button{
+        display: none;
+    }
+    nav{
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    .hamburgr{
+        display: inline-block;
+    }
+    
+}
 

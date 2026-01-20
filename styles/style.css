@@ -16,7 +16,8 @@
 nav{
     display: flex;
     justify-content: center;
-    background-color: rgba(65, 37, 103, 1);
+    background-color: #190730;
+    /* background-color: #250D44 ; */
     height: 92px;
     padding-left: 200px;
     padding-right: 200px;
@@ -47,3 +48,77 @@ nav ul li{
     height: 44px;
    
 }
+
+.hero-sec{
+    /* height: 760px; */
+    height: 100vh;
+    background-image: url(../assets/hero-bg.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-img{
+    /* border: 1px solid yellow; */
+    text-align: center;
+    color: white;
+    padding-top: 36px;
+    
+}
+
+
+.btn-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    
+}
+.spotify-btn
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(20deg, #F7E93F 15%, #FB09B4, #9100F8);
+    color: white;
+    width: 210px;
+    height: 44px;
+    border-radius: 35px;
+}
+.email-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: none;
+    color: white;
+    width: 147px;
+    height: 44px;
+    border-radius: 35px;
+    color: rgb(43, 255, 43);
+    border: 1px solid rgb(44, 243, 44);
+}
+.hero-sec h2{
+    font-size: 60px;
+    font-family: ;
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+
+.hero-sec p{
+    font-size: 16px;
+    font-family: ;
+}
+.mic
+{
+    left: 100px;
+}
+
+
+

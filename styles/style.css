@@ -84,6 +84,8 @@ nav ul li{
     text-align: center;
     padding-top: 10px;
     border-radius: 20px;
+    color: black;
+    box-shadow: rgba(0, 201, 0, .) 0px 7px 29px 0px;
 }
 
 .hamburgr{
@@ -142,6 +144,59 @@ nav ul li{
     left: 100px;
 }
 
+.about{
+
+    background-color: #1A0B2E;
+}
+
+.abt-container{
+    text-align: center;
+    color: white;
+    max-width: 1200px;
+    height: auto;
+    /* border: 1px solid yellow; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.abt-container h2{
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 70px;
+    
+}
+.text-box{
+    margin-top: 20px;
+    display: inline-block;
+    max-width: 500px;
+}
+
+.rate{
+    /* border: 1px solid red; */
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 65px ;
+    margin-bottom: 120px;
+}
+.ratings{
+    /* border: 1px solid green; */
+}
+.fa-star{
+    font-size: 40px;
+}
+.ratings h1{
+    font-size: 48px;
+    color: #00FF88;
+    padding-bottom: 15px;
+}
+
+
+
+
+/* Responsive part */
 @media screen and (max-width: 576px) {
     .hero-sec{
         background-size: 100%;
@@ -170,5 +225,13 @@ nav ul li{
         display: inline-block;
     }
     
+
+    /* .hero-img{
+        box-sizing: border-box;
+        width: 50px;
+    } */
+
+
+
 }
 

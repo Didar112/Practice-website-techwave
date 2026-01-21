@@ -191,8 +191,68 @@ nav ul li{
     font-size: 48px;
     color: #00FF88;
     padding-bottom: 15px;
+    
+    
 }
+.chs{
+    background: rgba(35, 14, 61, 1);
+    padding-bottom: 120px;
+}
+.chs-materials{
+    margin: 0 auto;
+    border: 1px solid rgba(35, 14, 61, 1);
+    max-width: 1200px;
+}
+.chs-materials h1{
+    text-align: center;
+    margin: 40px;
+    color: white;
+    margin-top: 120px;
+}
+.headphone{
+    grid-area: hp;
+    
+}
+.device{
+    grid-area: dev;
+}
+.location{
+    grid-area: loc;
+}
+.zap{
+    grid-area: zap;
+}
+.resource{
+    grid-area: res;
+}
+.gcard-holder{
+    
+    max-width: 1200px;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-areas: 
+                "hp  dev  dev"
+                "hp  loc  loc"
+                "zap zap  res";
 
+
+    gap: 20px;
+}
+.gcard{
+    background-color: rgba(40, 6, 87, 0.815);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+    border-radius: 30px;
+    
+    
+}
+.gcard img{
+    max-width: 60px;
+}
 
 
 

@@ -196,7 +196,7 @@ nav ul li{
 }
 .chs{
     background: rgba(35, 14, 61, 1);
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
 }
 .chs-materials{
     margin: 0 auto;
@@ -208,6 +208,7 @@ nav ul li{
     margin: 40px;
     color: white;
     margin-top: 120px;
+    font-size: 48px;
 }
 .headphone{
     grid-area: hp;
@@ -238,6 +239,7 @@ nav ul li{
 
 
     gap: 20px;
+    margin-bottom: 120px;
 }
 .gcard{
     background-color: rgba(40, 6, 87, 0.815);
@@ -253,6 +255,109 @@ nav ul li{
 .gcard img{
     max-width: 60px;
 }
+.featured{
+    border: 1px solid greenyellow;
+}
+
+.feat-ep-holder h1{
+    text-align: center;
+    color: white;
+    font-size: 48px;
+}
+.ep-holder{
+    display: ;
+}
+
+
+.ep-card{
+  border-radius: 18px;
+  overflow: hidden;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.ep-media{
+  position: relative;
+  aspect-ratio: 16 / 9;  /* makes it responsive */
+  width: 100%;
+}
+
+.ep-media iframe{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.ep-body{
+  padding: 16px;
+
+}
+.card-body{
+    color: white;
+    margin: 24px;
+}
+.card-body h3{
+    margin-bottom: 12px;
+}
+.ep-meta{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  margin-left: 24px;
+  margin-bottom: 24px;
+  color: #00FF88;
+}
+
+.ep-meta .dot{
+  /* width: 10px;
+  height: 10px;
+  border-radius: 50%; */
+  /* background: #22c55e; */
+}
+
+
+.ep-holder{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+    gap: 30px;
+    border: 1px solid red;
+    margin-bottom: 120px;
+}
+
+.host
+{
+    max-width: 1200px;
+    border: 1px solid red;
+    margin: 0 auto;
+
+}
+.host h1{
+    text-align: center;
+    color: white;
+    font-size: 48px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

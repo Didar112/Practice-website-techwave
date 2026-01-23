@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+@keyframes floatBadge {
+  0%, 100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -8px, 0);
+  }
+}
+
+
+.float-badge {
+  animation: floatBadge 2.8s ease-in-out infinite;
+  will-change: transform;
+}
 
 
 .inter-font {
@@ -272,7 +286,7 @@ font-weight: 700;
     grid-area: res;
 }
 .gcard h3{
-    ont-style: Bold;
+    font-style: Bold;
     font-size: 24px;
     font-weight: 700;
 }
@@ -338,7 +352,7 @@ line-height: 24px;
 
 .ep-media{
   position: relative;
-  aspect-ratio: 16 / 9;  /* makes it responsive */
+  aspect-ratio: 16 / 9;  
   width: 100%;
 }
 
@@ -520,8 +534,8 @@ font-weight: 500;
     gap: 10px;
 }
 .ft-img img{
-  width: 410px;     /* increase this */
-  max-width: 80vw;  /* keeps it responsive on small screens */
+  width: 410px;     
+  max-width: 80vw;  
   height: auto;
   display: block;
 }
@@ -579,12 +593,14 @@ font-weight: 500;
     .ft-img img{
         max-width: 219px;
     }
+    
 
 .host h1{
     font-family: Inter;
 font-style: Bold;
 font-size: 32px;
 font-weight: 700;
+
 }
     .host-holder{
             flex-direction: column;
@@ -728,9 +744,9 @@ font-weight: 700;
 
 
 .hero-sec{
-    height: auto;                 /* IMPORTANT: let it grow */
-    min-height: 60vh;            /* fills screen like figma */
-    padding: 40px 16px 40px;      /* space under nav */
+    height: auto;                 
+    min-height: 60vh;           
+    padding: 40px 16px 40px;      
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -741,7 +757,7 @@ font-weight: 700;
   }
 
   .hero-img{
-    position: relative;           /* anchor NEW + mic */
+    position: relative;          
     width: 100%;
     max-width: 420px;
     margin: 0 auto;
@@ -749,7 +765,7 @@ font-weight: 700;
     text-align: center;
   }
 
-  /* Circle image */
+  
   .hero-img .main-img{
     width: min(320px, 82vw);
     height: auto;
@@ -757,11 +773,10 @@ font-weight: 700;
     margin: 0 auto;
   }
 
-  /* Mic centered INSIDE the circle */
   .hero-mic{
     position: absolute;
     left: 50%;
-    top: 30%;                     /* tweak 28–33% if needed */
+    top: 30%;                   
     transform: translate(-50%, -50%);
     right: auto;
     z-index: 2;
@@ -772,11 +787,10 @@ font-weight: 700;
     display: block;
   }
 
-  /* NEW badge on top-right of circle */
   .new{
     position: absolute;
     top: 9%;
-    left: 66%;                    /* tweak 62–70% if needed */
+    left: 66%;                  
     right: auto;
 
     width: 86px;
@@ -786,7 +800,7 @@ font-weight: 700;
     z-index: 3;
   }
 
-  /* Title + subtitle spacing */
+  
   .hero-sec h2{
     font-size: 44px;
     padding-top: 18px;
@@ -802,14 +816,13 @@ font-weight: 700;
     opacity: 0.9;
   }
 
-  /* Buttons: 2 side-by-side like figma */
   .btn-holder{
     margin-top: 18px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 14px;
-    flex-wrap: nowrap;            /* keeps them in one row */
+    flex-wrap: nowrap;            
   }
 
   .spotify-btn,

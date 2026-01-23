@@ -5,6 +5,14 @@
 }
 
 
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  /* font-optical-sizing: auto; */
+  
+}
+
+
 .nav-container{
     display: flex;
     flex-direction: row;
@@ -60,12 +68,30 @@ nav ul li{
     position: relative;
 }
 
+
+.hero-sec h2{
+    color: rgba(255, 255, 255, 1);
+font-family: Inter;
+font-style: Extra Bold;
+font-size: 60px;
+font-weight: 800;
+}
+.hero-sec p{
+    opacity: 0.8;
+    font-family: Inter;
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+}
+
 .hero-img{
     /* border: 1px solid yellow; */
     text-align: center;
     color: white;
     padding-top: 36px;
     position: relative;
+    /* position: absolute; */
     
 }
 .hero-mic{
@@ -85,7 +111,7 @@ nav ul li{
     padding-top: 10px;
     border-radius: 20px;
     color: black;
-    box-shadow: rgba(0, 201, 0, .) 0px 7px 29px 0px;
+    box-shadow: rgba(0, 201, 0, ) 0px 7px 29px 0px;
 }
 
 .hamburgr{
@@ -159,36 +185,53 @@ nav ul li{
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 }
 
 .abt-container h2{
-    font-size: 48px;
-    font-weight: 900;
+    font-family: Inter;
+font-style: Bold;
+font-size: 48px;
+font-weight: 700;
     margin-top: 70px;
+
     
 }
 .text-box{
     margin-top: 20px;
     display: inline-block;
     max-width: 500px;
+    opacity: 0.8;
+    font-family: Inter;
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
 }
 
 .rate{
-    /* border: 1px solid red; */
+    /* border: 1px solid red;*/
+    border-top: 0.2px dotted grey;
     margin-top: 60px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding-top: 65px ;
     margin-bottom: 120px;
 }
-.ratings{
-    /* border: 1px solid green; */
+.ratings p{
+    opacity: 0.8;
+    font-family: Inter;
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
 }
 .fa-star{
     font-size: 40px;
 }
 .ratings h1{
-    font-size: 48px;
+    font-family: Inter;
+font-style: Black;
+font-size: 48px;
+font-weight: 900;
     color: #00FF88;
     padding-bottom: 15px;
     
@@ -208,7 +251,9 @@ nav ul li{
     margin: 40px;
     color: white;
     margin-top: 120px;
-    font-size: 48px;
+    font-style: Bold;
+font-size: 48px;
+font-weight: 700;
 }
 .headphone{
     grid-area: hp;
@@ -225,6 +270,18 @@ nav ul li{
 }
 .resource{
     grid-area: res;
+}
+.gcard h3{
+    ont-style: Bold;
+    font-size: 24px;
+    font-weight: 700;
+}
+.gcard p{
+    opacity: 0.6;
+    font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
 }
 .gcard-holder{
     
@@ -256,7 +313,10 @@ nav ul li{
     max-width: 60px;
 }
 .featured{
-    border: 1px solid greenyellow;
+    /* border: 1px solid greenyellow; */
+    background-color: rgba(26, 11, 46, 1);
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .feat-ep-holder h1{
@@ -300,6 +360,20 @@ nav ul li{
 }
 .card-body h3{
     margin-bottom: 12px;
+
+}
+.card-body h3{
+    font-style: Bold;
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+}
+.card-body p{
+    opacity: 0.6;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
 .ep-meta{
   display: flex;
@@ -309,6 +383,10 @@ nav ul li{
   margin-left: 24px;
   margin-bottom: 24px;
   color: #00FF88;
+  font-style: Semi Bold;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
 }
 
 .ep-meta .dot{
@@ -327,35 +405,126 @@ nav ul li{
     margin: 0 auto;
     margin-top: 40px;
     gap: 30px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-bottom: 120px;
 }
 
 .host
 {
     max-width: 1200px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
 
+
+}
+.host h2{
+    font-style: Bold;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
 }
 .host h1{
     text-align: center;
     color: white;
+    font-style: Bold;
     font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.host-holder{
+    /* margin-top: ; */
+    max-width: 1200px;
+    /* border: 1px solid yellow; */
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    color: white;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    margin-top: 40px;
+}
+.host-body{
+    display: grid;
+    grid-template-rows:  repeat(2, 1fr);
+    /* gap: 20px; */
+}
+.host-body p{
+    opacity: 0.6;
+    font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+/* line-height: 24px; */
+}
+.host-icon-holder{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+    gap: 15px;
+}
+.ic-bg{
+    border: 1px solid rgba(83, 60, 114, 1);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 
+footer{
+    background-image: url(../assets/footer-bg.png);
+    height: 412px;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
+.footer-content{
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    height: 100%;
+    /* width: ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.footer-content p{
+    opacity: 0.6;
+    font-style: Medium;
+font-size: 16px;
+font-weight: 500;
+}
 
-
-
-
-
-
-
-
-
+.ft-logo-holder{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    align-items: center;
+    justify-content: center ;
+    gap: 20px;
+}
+.ft-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 20px;
+    gap: 10px;
+}
+.ft-img img{
+  width: 410px;     /* increase this */
+  max-width: 80vw;  /* keeps it responsive on small screens */
+  height: auto;
+  display: block;
+}
 
 
 
@@ -366,6 +535,7 @@ nav ul li{
     .hero-sec{
         background-size: 100%;
         background-repeat: no-repeat;
+      
 
     }
 
@@ -391,12 +561,267 @@ nav ul li{
     }
     
 
-    /* .hero-img{
-        box-sizing: border-box;
-        width: 50px;
-    } */
+    
+
+    footer{
+        /* background-size: 100%; */
+        /* background-repeat: no-repeat; */
+        background-size: cover;
+
+        height: 248px;
+    }
+
+    .ft-logo-holder{
+        grid-template-rows: repeat(2, auto);
+        grid-template-columns: repeat(2, auto);
+
+    }
+    .ft-img img{
+        max-width: 219px;
+    }
+
+.host h1{
+    font-family: Inter;
+font-style: Bold;
+font-size: 32px;
+font-weight: 700;
+}
+    .host-holder{
+            flex-direction: column;
+            text-align: center;
+            margin-left: 20px ;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-top: 20px;
+    }
+
+    .host-body{
+    display: grid;
+    grid-template-rows: 36px repeat(1, 1fr);
+    /* gap: 20px; */
+}
+
+.host-icon-holder{
+    justify-content: center;
+    margin-top: 26.5;
+}
+
+.ep-holder{
+    grid-template-columns: 1fr;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.feat-ep-holder h1{
+    font-family: Inter;
+font-style: Bold;
+font-size: 32px;
+font-weight: 700;
+
+}
+.featured{
+     padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+
+.chs-materials{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.chs-materials h1{
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    margin-bottom: 16px;
+    font-family: Inter;
+font-style: Bold;
+font-size: 32px;
+font-weight: 700;
+}
+.gcard-holder{
+    
+    max-width: 1200px;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+    grid-template-areas: 
+                "hp"
+                "dev"
+                "loc"
+                "zap"
+                "res";
+
+
+    gap: 16px;
+    margin-bottom: 40px;
+}
+.gcard{
+  
+    flex-direction: column;
+    padding: 24px;
+    gap: 20px;
+    border-radius: 24px;
+    
+    
+}
+.rate{
+    /* border: 1px solid red;*/
+    border-top: 0.2px dotted grey;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 40px ;
+    margin-bottom: 20px;
+    gap: 40px;
+}
+.abt-container
+{
+    padding:20px;
+    padding-top: 0px;
+}
+.abt-container h2
+{
+    margin-top: 40px;
+}
+.hero-img img{
+    width: 90%;
+    /* position: absolute; */
+    left: 0px;
+
+}
+.hero-sec{
+    display: relative;
+}
+.hero-img{
+    /* position: absolute;                                        */
+    /* display: none; */
+    width: 50%;
+     box-sizing: border-box;
+        width: 90%;
+        top: 12px;
+}
+.hero-sec{
+    height: 200px;
+}
+
+    .hero-img img{
+        width: 200px;
+        height: 200px;
+        
+    }
+
+    .hero-mic img{
+        
+        width: 60px;
+        height: 90px;
+
+        
+
+    }
+    .hero-mic{
+        top: 150px;
+        left: 130px;
+    }
+
+/* ----------------------------------------------------- */
+
+
+
+.hero-sec{
+    height: auto;                 /* IMPORTANT: let it grow */
+    min-height: 60vh;            /* fills screen like figma */
+    padding: 40px 16px 40px;      /* space under nav */
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .hero-img{
+    position: relative;           /* anchor NEW + mic */
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+    padding-top: 0;
+    text-align: center;
+  }
+
+  /* Circle image */
+  .hero-img .main-img{
+    width: min(320px, 82vw);
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* Mic centered INSIDE the circle */
+  .hero-mic{
+    position: absolute;
+    left: 50%;
+    top: 30%;                     /* tweak 28–33% if needed */
+    transform: translate(-50%, -50%);
+    right: auto;
+    z-index: 2;
+  }
+  .hero-mic img{
+    width: min(90px, 22vw);
+    height: auto;
+    display: block;
+  }
+
+  /* NEW badge on top-right of circle */
+  .new{
+    position: absolute;
+    top: 9%;
+    left: 66%;                    /* tweak 62–70% if needed */
+    right: auto;
+
+    width: 86px;
+    height: 38px;
+    padding-top: 9px;
+    border-radius: 999px;
+    z-index: 3;
+  }
+
+  /* Title + subtitle spacing */
+  .hero-sec h2{
+    font-size: 44px;
+    padding-top: 18px;
+    padding-bottom: 8px;
+    line-height: 1.05;
+  }
+
+  .hero-img > p{
+    font-size: 14px;
+    line-height: 1.45;
+    max-width: 34ch;
+    margin: 0 auto;
+    opacity: 0.9;
+  }
+
+  /* Buttons: 2 side-by-side like figma */
+  .btn-holder{
+    margin-top: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 14px;
+    flex-wrap: nowrap;            /* keeps them in one row */
+  }
+
+  .spotify-btn,
+  .email-btn{
+    width: 170px;
+    height: 44px;
+    border-radius: 999px;
+  }
+
 
 
 
 }
+
 
